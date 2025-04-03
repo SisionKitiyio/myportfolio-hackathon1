@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Lilian Kitiyio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="myimage.jpg" alt="Lilian Kitiyio" class="logo-image">
+                Lilian Kitiyio
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section id="contact-info">
+            <h2>📞 Contact Information</h2>
+            <p><strong>Phone:</strong> 0704816076</p>
+            <p><strong>Email:</strong> <a href="mailto:sisionkitiyio@gmail.com">sisionkitiyio@gmail.com</a></p>
+            <p><strong>Address:</strong> P.O Box 01100, Nairobi</p>
+        </section>
+
+        <section id="contact-form">
+            <h2>✉️ Send Me a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </section>
+
+        <section id="social-links">
+            <h2>🌐 Connect with Me on my social media links below👇</h2>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sision-kitiyio-6a98502a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SisionKitiyio"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/sissy._.lilly?igsh=YmZ2ZXViYnRtY2No&utm_source=qr"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Lilian Kitiyio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
